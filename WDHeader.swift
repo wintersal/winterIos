@@ -27,6 +27,9 @@ var manger:SessionManager? = nil
 let packageFilePath:String = NSHomeDirectory() + "/Documents/packages.plist"
 let marksFilePath:String = NSHomeDirectory() + "/Documents/marks.plist"
 let baseUrl = "http://api.84185858.com/index.php?bmxVersion=4.2&bmxSource=ios&buildVersion=30"
+let WDW = UIScreen.main.bounds.width
+let WDH = UIScreen.main.bounds.height
+let WDScale = WDW / 320.0
 //let baseUrl = "http://baimixu.f3322.net:8082/index.php?version=3&"
 //let baseUrl = "http://baimixu.f3322.net/index.php?"
 //let baseUrl = "http://192.168.1.1/index.php?"
